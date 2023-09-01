@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--poppins);
+}
+:root{
+    --white: white;
+    --black : black;
+    --secondary-colors: #36454F;
+    --gold:#ffba6b;
+    --mallet:#181818;
+    --font1:'Belgan Aesthetic';
+    --font2:'stone orgonite';
+    --poppins : 'Poppins',sans-serif;
+}
+.logo{
+    width: 6%;
+    height: 8%;
+    position: absolute;
+    top: 5%;
+    left: 2.5%;
+    z-index: 5;
+    cursor: pointer;
+}
+.left{
+    top: 0;
+    left: 0;
+    position: absolute;
+    height: 100%;
+    width: 60%;
+    box-shadow: 0px 1px 50px black;
+}
+.bg-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: 1;
+}
+.top-black-layer{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,.32);
+    z-index: 2;
+}
+.left-title{
+    position: absolute;
+    z-index: 6;
+    top: 55%;
+    color: var(--white);
+    left: 3%;
+    font-size: 2rem;
+    text-shadow: 0px 0px 10px black;
+}
+.left-para{
+    position: absolute;
+    z-index: 6;
+    top: 65%;
+    text-shadow: 0px 0px 10px black;
+    color: var(--white);
+    left: 3%;
+    width: 80%;
+}
+.social-media-icons-div{
+    height: 5%;
+    width: 25%;
+    position: absolute;
+    left: 3%;
+    top: 88%;
+    z-index: 6;
+}
+.left-socialmedia-icons{
+    color: var(--white);
+    height: 70%;
+    justify-content: space-between;
+    width: 20%;
+}
+.right{
+    height: 100%;
+    width: 40%;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+}
+.title{
+    color: #181818;
+    word-spacing: 3px;
+    font-weight: 600;
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    font-weight: 700;
+    transform: translate(-50%, -50%);
+}
+.inputs{
+    padding: 10px 0px;
+    position: relative;
+    top: 25%;
+    left: 47%;
+    margin-top: 18%;
+    width: 55%;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #181818;
+    transform: translate(-50%, -50%);
+}
+.login-labels{
+    position: relative;
+    top: 18%;
+    left: -36%;
+    transform: translate(-50%, -50%);
+}
+.login-icon{
+    height: 25px;
+    width: 25px;
+    position: relative;
+    top: 26%;
+    left: -4.5%;
+    transform: translate(-50%, -50%);
+}
+.lock{
+    margin-left: 36px;
+}
+.show-pass-check{
+    position: absolute;
+    top: 61.5%;
+    right: 76%;
+}
+.show-pass-text{
+    position: absolute;
+    top: 61%;
+    font-size: 13px;
+    right: 50%;
+}
+.signin-btn{
+    padding: 8px 24%;
+    position: absolute;
+    top: 70%;
+    left: 20%;
+    border-radius: 4px;
+    color: var(--white);
+    background: rgb(47, 47, 47);
+    border: none;
+    cursor: pointer;
+    transition: .3s;
+    box-shadow: 0px 3px 6px black;
+}
+.signin-btn:hover{
+    background: black;
+}
+.new-acc-btn{
+    position: absolute;
+    top: 92%;
+    left: 46%;
+    font-size: 14px;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    color: black;
+}
+.new-acc-icon{
+    margin-left: 5px;
+}
