@@ -68,7 +68,7 @@
 }
 .social-media-icons-div{
     height: 5%;
-    width: 25%;
+    width: 30%;
     position: absolute;
     left: 3%;
     top: 88%;
@@ -164,4 +164,6 @@
 }
 .new-acc-icon{
     margin-left: 5px;
+    position: absolute;
+    top: 20%;
 }
